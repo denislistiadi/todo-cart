@@ -24,8 +24,8 @@ export default function Index() {
       onAuthChange(response);
       navigate('/');
     } catch (error: any) {
+      console.error(error);
       alert(error.response.data.message);
-      console.error(error.response.data.message);
     } finally {
       setLoading(false);
     }

@@ -1,3 +1,4 @@
+import { LOGIN } from '../constants/config';
 import { IAuthRequest } from '../types/auth.types';
 import { postServices } from './api.service';
 
