@@ -6,6 +6,7 @@ export default function Header() {
 
   const onLogout = (): void => {
     onAuthChange(null);
+    localStorage.removeItem('auth');
   };
 
   return (
