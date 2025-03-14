@@ -22,3 +22,8 @@
     }
   }
 }
+
+.empty-cart {
+  font-weight: semibold;
+  margin-top: 20px;
+}
